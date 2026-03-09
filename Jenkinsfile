@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Code') {
             steps {
-                git 'https://github.com/username/toyota-car-booking.git'
+                git 'https://github.com/manojagalave07/toyota-car-booking-CICD.git'
             }
         }
 
